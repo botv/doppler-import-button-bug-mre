@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <DopplerImportButton secretName="secret_name" secretValue="secret_value" />
+        <DopplerImportButton secretName="SECRET_NAME" secretValue={null} />
       </main>
     </div>
   )
